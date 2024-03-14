@@ -61,3 +61,12 @@ void display() {                                // Prosedur untuk menampilkan ha
 	}
 	cout << endl;                                // Output Baris kosong
 }
+
+int main()
+{
+	input();                   // Memanggil input()
+	insertionsort();         // Memanggil insertionsort()
+	display();                 // Memanggil display()
+
+
+}
