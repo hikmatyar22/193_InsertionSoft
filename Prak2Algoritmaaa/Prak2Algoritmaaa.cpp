@@ -50,3 +50,14 @@ void insertionsort() {                        // Prosedur insertionsort
 		}
 	}
 }
+
+void display() {                                // Prosedur untuk menampilkan hasil
+	cout << endl;                              // Output baris kosong
+	cout << "================================" << endl;    // Output ke layar
+	cout << "Elemen Array yang telah tersusun" << endl;    // Output ke layar
+	cout << "================================" << endl;    // Output ke layar
+	for (int j = 0; j < n; j++) {                // looping dengan j dimulai dari 0 hingga n-1
+		cout << arr[j] << endl;                    // Output ke layar
+	}
+	cout << endl;                                // Output Baris kosong
+}
